@@ -1,0 +1,3 @@
+﻿  chapter2.cpp
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\chapter2\chapter2.cpp(112,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  chapter2.vcxproj -> C:\Users\romoc\Рабочий стол\Работа\Упражнения\chapter2\x64\Debug\chapter2.exe

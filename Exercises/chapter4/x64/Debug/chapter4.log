@@ -1,0 +1,7 @@
+﻿  chapter4.cpp
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\chapter4\chapter4.cpp(146,42): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\chapter4\chapter4.cpp(164,2): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\chapter4\chapter4.cpp(226,37): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\chapter4\chapter4.cpp(227,34): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\chapter4\chapter4.cpp(228,30): warning C4305: инициализация: усечение из "double" в "float"
+  chapter4.vcxproj -> C:\Users\romoc\Рабочий стол\Работа\Упражнения\chapter4\x64\Debug\chapter4.exe

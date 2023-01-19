@@ -1,0 +1,8 @@
+﻿  сhapter3.cpp
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\сhapter3\сhapter3.cpp(68,36): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\сhapter3\сhapter3.cpp(69,35): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\сhapter3\сhapter3.cpp(80,19): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\сhapter3\сhapter3.cpp(111,11): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\сhapter3\сhapter3.cpp(146,31): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\romoc\Рабочий стол\Работа\Упражнения\сhapter3\сhapter3.cpp(147,31): warning C4305: инициализация: усечение из "double" в "float"
+  сhapter3.vcxproj -> C:\Users\romoc\Рабочий стол\Работа\Упражнения\сhapter3\x64\Debug\сhapter3.exe
