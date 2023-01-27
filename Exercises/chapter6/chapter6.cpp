@@ -25,11 +25,9 @@ int main(int argc, char const *argv[])
 		switch (num)
 		{
 		case 1:
-		{
 			task1();
 			std::cout << std::endl;
 			break;
-		}
 		case 2:
 			task2();
 			std::cout << std::endl;
@@ -102,28 +100,51 @@ void task2()
 
 	const size_t size = 10;
 	double sum = 0;
-	size_t i = 0;
-	double arr[size] = {};
+	int i = 0, count = 0;
+	double arr[size] {};
 
 	while(i < size && std::cin >> arr[i]) {
 		sum += arr[i];
 		i++;
 	}	
 
+	std::cin.clear();
+	std::cin.get();
 	std::cout << "Data entered, all non-numeric values deleted" << std::endl;
+
+	double average = 0;
+
 	if(i != 0){
-		double average = sum / i;
+		average = sum / i;
 		std::cout << "Average: " << average << std::endl;
 	} else {
 		std::cout << "No numbers were entered"  << std::endl;
 	}
-	
-	
+
+	for(int j = 0; j < i; j++) {
+		if(arr[j] > average){
+			count++;
+		}
+	}
+
+	std::cout << "Values exceeding the average: " << count << std::endl;
 }
 
 void task3()
 {
+	const char arr[4] {'a', 'b', 'c', 'd'};
+	
+	std::cout << "Please enter one of the following choices:\n"
+			<< arr[0] << ") carnivore \t" << arr[1] << ") pianist\n" 
+			<< arr[2] << ") tree \t" << arr[3] << ") game\n" << std::endl;
 
+	std::cout << "Please enter a, b, c, d: ";
+	int character = 0;
+
+	while(!(std::cin >> character)) {
+		std::cout << "******" << std::endl;
+		break;
+	}
 }
 
 void task4()
